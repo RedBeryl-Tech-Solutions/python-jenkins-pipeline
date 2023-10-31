@@ -1,0 +1,17 @@
+-- BYTEA without length and scale
+   BYTEA , BLOB
+
+ --INTEGER without lenght and scale 
+   INTEGER , INTEGER
+
+ --SERIAL without lenght and scale 
+   SERIAL , INT
+
+-- BIGINT without lenght and scale 
+   BIGINT , BIGINT
+
+-- DECIMAL without lenght and scale 
+   DECIMAL , DECIMAL
+
+-- NUMERIC with lenght 10  and scale 
+   NUMERIC (10, 0), DECIMAL
